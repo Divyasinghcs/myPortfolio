@@ -1,0 +1,36 @@
+.navigation{
+
+}
+.navigationBar{
+    display:flex;
+    background-color: rgba(179, 158, 212, 0.58);
+    width: 100wh;
+    z-index: 3;
+    box-shadow: 3px 3px 3px 3px #888888;
+
+}
+.rightSide{
+    display: flex;
+    right: 0;
+    position: absolute;
+
+
+}
+.rightSide ul{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin:0px;
+
+
+}
+.rightSide li{
+    padding: 10px;
+    flex: right;
+}
+.rightSide a{
+    text-decoration: none;
+    font-size: 28px;
+    
+
+}
