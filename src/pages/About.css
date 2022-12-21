@@ -1,14 +1,14 @@
-.head{
-    display: flex;
-    justify-content: center;
-    background-color: #DED1DE;
-    height: 88.6vh;
-    margin: 0%;
-
+.head {
+  display: flex;
+  justify-content: center;
+  background-color: #ded1de;
+  height: 100vh;
+  margin: 0%;
 }
-.card{
-    background-color: #320B38;
-    display: grid;
+.card {
+  /* background-color: #320B38; */
+  background-image: -webkit-linear-gradient(90deg, #320b38, #9961a2, #e5cce9);
+  display: grid;
   place-content: center;
   color: #3e4040;
   font-size: 1.5rem;
@@ -22,87 +22,113 @@
   padding-right: 5px;
 
   padding-top: 60px;
-
 }
-.picture{
-    display: grid;
-    place-content: center;
-    margin: 0;
-   
-    
+.picture {
+  display: grid;
+  place-content: center;
+  margin: 0;
 }
 
-.detailing{
-    justify-content: center;
-    
-    
-    
+.detailing {
+  justify-content: center;
 }
-.detailing h1{
-    
-    color: #9f9b9b;
-    text-align: center;
-    font-size: 50px;
-    padding: 0px;
-    margin-bottom: 5px;
-    
+.detailing h1 {
+  color: #efe9e9;
+  text-align: center;
+  font-size: 50px;
+  padding: 0px;
+  margin-bottom: 5px;
+}
+.desc p {
+  color: #fffbfb;
+  text-align: center;
+  font-size: 18px;
+  padding: 0px;
+  margin-top: 0;
+}
+.detailing p {
+  color: #fcf9f9;
+  text-align: center;
+  font-size: 18px;
+  padding: 0px;
+}
+.lowericon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 40px;
+}
+.icon {
+  color: bisque;
+  display: grid;
+  justify-content: center;
+  padding: 0px 30px 0px 30px;
+}
+.icon p {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  text-align: center;
+  color: #fdf8fd;
+}
+.icon a {
+  font-size: 40px;
+  text-align: center;
+  color: bisque;
+}
 
-}
-.desc p{
-    color: #9f9b9b;
-    text-align: center;
-    font-size: 18px;
-    padding: 0px;
-    margin-top: 0;
-    
-    
-}
-.detailing p{
-    
-    color: #9f9b9b;
-    text-align: center;
-    font-size: 18px;
-    padding: 0px;
-    
-
-}
-.lowericon{
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
-}
-.icon{
-    
-    color: bisque;
-    display: grid;
-    justify-content: center;
-    padding:10px 40px 0px 40px;
-}
-.icon p{
-    padding: 0;
-    margin: 0;
-    font-size: 10px;
-    text-align: center;
-}
-.icon a{
-    color: bisque;
-   
-    
-  
-
-}
-.picture img{
-    justify-content: center;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    box-shadow: -1px -3px 20px 10px red ;
-    animation: glow 5s alternate infinite;
-
+.picture img {
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: -1px -3px 20px 10px red;
+  animation: glow 5s alternate infinite;
 }
 @keyframes glow {
-    0%{ box-shadow: 0px 0px 0px 0px rgb(195, 29, 112)}
-    50%{box-shadow: 0.5px -1.5px 20px 10px rgb(255, 0, 136)}
-    100%{box-shadow: -1px -3px 40px 20px rgb(255, 2, 2)}
-    
+  0% {
+    box-shadow: 0px 0px 0px 0px rgb(195, 29, 112);
+  }
+  50% {
+    box-shadow: 0.5px -1.5px 20px 10px rgb(255, 0, 136);
+  }
+  100% {
+    box-shadow: -1px -3px 40px 20px rgb(255, 2, 2);
+  }
+}
+@media only screen and (max-width: 700px) {
+  .head {
+    height: 100vh;
+  }
+  .card {
+    font-size: 1rem;
+    min-height: 700px;
+    min-width: 400px;
+  }
+  .picture img {
+    height: 150px;
+    width: 150px;
+  }
+  .detailing h1 {
+    font-size: 20px;
+  }
+  .detailing p {
+    padding: 10px auto;
+    font-size: 12px;
+    word-wrap: inherit;
+  }
+  .lowericon {
+    display: inline;
+  }
+  .icon a {
+    text-align: center;
+    font-size: 40px;
+  }
+  .mediaq {
+    display: flex;
+    justify-content: left;
+  }
+  .icon p {
+    color: white;
+  }
 }

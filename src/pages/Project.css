@@ -1,0 +1,102 @@
+.project {
+  background-image: -webkit-linear-gradient(
+    70deg,
+    rgb(44, 131, 237),
+    rgb(196, 169, 242),
+    rgb(222, 209, 243)
+  );
+
+  padding: 0%;
+  margin: 0%;
+  height: 100vh;
+}
+.project h1 {
+  margin: 0%;
+  padding: 1%;
+  text-align: center;
+}
+.project p {
+  padding-left: 5rem;
+  text-align: left;
+}
+.allProject {
+  /* background-color: rgb(156, 103, 39); */
+}
+.projectCard {
+  /* background-color: rgb(125, 70, 222); */
+  background-image: -webkit-linear-gradient(
+    70deg,
+    rgb(222, 70, 154),
+    rgb(169, 199, 242),
+    rgb(222, 209, 243)
+  );
+  display: flex;
+  border-color: black;
+  border-style: outset;
+  border-width: 0px 0px 2px 0px;
+}
+.projectimage {
+  margin: 2rem;
+
+  padding-left: 20px;
+  height: 12rem;
+  width: 16rem;
+}
+.projectimage img {
+  height: 12rem;
+  border-radius: 5%;
+  width: 16rem;
+}
+.contents {
+  /* background-color: beige; */
+  width: 100%;
+  text-align: center;
+}
+.contents p {
+  font-style: oblique;
+  font-size: 18px;
+  font-weight: bolder;
+}
+@media only screen and (max-width: 700px) {
+  .project {
+    /* max-width: 400px; */
+    width: 100%;
+  }
+  .projectCard {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+  .projectimage {
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    height: 9rem;
+    width: 12rem;
+  }
+  .projectimage img {
+    margin: 0px;
+    padding: 0px;
+    height: 9rem;
+    width: 12rem;
+  }
+  .contents {
+    padding: 5px;
+    width: 100%;
+  }
+  .contents h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+  }
+  .contents p {
+    padding-left: 5px;
+    font-weight: bolder;
+    margin: 0px;
+    font-size: 14px;
+    color: aliceblue;
+  }
+}

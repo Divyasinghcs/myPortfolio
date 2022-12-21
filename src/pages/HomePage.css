@@ -1,56 +1,50 @@
-.home{
-    background-color: rgb(2, 2, 2);
-    height: 88.6vh;
-    display: flex;
-    justify-content: center;
-
+.home {
+  background-color: rgb(2, 2, 2);
+  height: 88.6vh;
+  display: flex;
+  justify-content: center;
 }
-.description{
+.description {
+  display: flex;
 
-    display: flex;
-
-    justify-content: center;
-    background-color: black;
-    padding-top: 50px;
-    
-
-
+  justify-content: center;
+  /* background-color: black; */
+  padding-top: 50px;
 }
-.description h1{
-    color: aliceblue;
-    margin: 0px;
-    
-    
+.description h1 {
+  color: aliceblue;
+  margin: 0px;
 }
-.description p{
-    color: aliceblue;
-    font-size: 25px;
-    padding: 0px;
-    
+.description p {
+  color: aliceblue;
+  font-size: 25px;
+  padding: 0px;
 }
-.detail{
-    padding:150px 0px 0px 80px;
-    font-size: 30px;
+.detail {
+  padding: 150px 0px 0px 80px;
+  font-size: 30px;
 }
 
-.image{
-    align-content:center ;
-    padding-top: 50px;
-      
-
+.image {
+  align-content: center;
+  padding-top: 50px;
 }
-.image img{
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    box-shadow: -1px -3px 20px 10px red;
-    animation: glow 5s alternate infinite;
-
-
+.image img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  box-shadow: -1px -3px 20px 10px red;
+  animation: glow 5s alternate infinite;
 }
+
 @keyframes glow {
-    0%{box-shadow: 0px 0px 0px 0px rgb(195, 29, 112)}
-    50%{box-shadow: 0.5px -1.5px 20px 10px rgb(255, 0, 136)}
-    100%{box-shadow: -1px -3px 40px 20px rgb(255, 2, 2)}
-    
+  0% {
+    box-shadow: 0px 0px 0px 0px rgb(195, 29, 112);
+  }
+  50% {
+    box-shadow: 0.5px -1.5px 20px 10px rgb(255, 0, 136);
+  }
+  100% {
+    box-shadow: -1px -3px 40px 20px rgb(255, 2, 2);
+  }
 }

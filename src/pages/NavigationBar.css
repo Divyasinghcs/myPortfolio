@@ -1,36 +1,40 @@
-.navigation{
-
+.navigation {
 }
-.navigationBar{
-    display:flex;
-    background-color: rgba(179, 158, 212, 0.58);
-    width: 100wh;
-    z-index: 3;
-    box-shadow: 3px 3px 3px 3px #888888;
-
+.navigationBar {
+  display: flex;
+  /* background-color: rgba(179, 158, 212, 0.58); */
+  background-image: -webkit-linear-gradient(90deg, #f6f1f7, #ded1de);
+  width: 100wh;
+  z-index: 3;
+  box-shadow: 3px 3px 3px 3px #888888;
 }
-.rightSide{
-    display: flex;
-    right: 0;
-    position: absolute;
-
-
+.navigationBar h1 {
+  font-size: 30px;
 }
-.rightSide ul{
-    display: flex;
-    list-style: none;
-    padding: 10px;
-    margin:0px;
-
-
+.rightSide {
+  display: flex;
+  right: 0;
+  position: absolute;
 }
-.rightSide li{
-    padding: 10px;
-    flex: right;
+.rightSide ul {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  margin: 0px;
 }
-.rightSide a{
-    text-decoration: none;
-    font-size: 28px;
-    
-
+.rightSide li {
+  padding: 10px;
+  flex: right;
+}
+.rightSide a {
+  text-decoration: none;
+  font-size: 28px;
+}
+@media only screen and (max-width: 700px) {
+  .navigationBar h1 {
+    font-size: 18px;
+  }
+  .rightSide a {
+    font-size: 14px;
+  }
 }
